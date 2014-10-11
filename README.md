@@ -1,6 +1,3 @@
-misionerosYCanibales
-====================
-====================
 ### Tecnológico de Costa Rica
 #####Escuela de Ingeniería en Computación
 #####IC3002 Análisis de Algoritmos - Prof. Mauricio Rojas
