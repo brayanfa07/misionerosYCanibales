@@ -26,7 +26,6 @@ Por ejemplo
 
 3m0c0b ____0m2c1b
 
-
 3m1c1b ____0m1c0b
 
 1m1c1b ____2m1c1b
