@@ -69,7 +69,7 @@ public class misionerosycanibales {
         return false;
     }
 
-    public static void main(String[] args) {
+    public static void main(String[] args) {                  //Metodo main o principal. Metodo de prueba o inicio del algoritmo
         misionerosycanibales min1 = new misionerosycanibales();
         min1.moverMisionerosYCanibales(3, 3, 1);
     }
