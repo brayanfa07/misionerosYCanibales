@@ -4,18 +4,18 @@
 public class misionerosycanibales {
 
     boolean moverMisionerosYCanibales(int pMis, int pCan, int pBot){
-        if ((pMis == 0) & (pCan == 0) & (pBot == 0)){
+        if ((pMis == 0) & (pCan == 0) & (pBot == 0)){      //Funcion de aceptacion
             System.out.println((3 - pMis) + "M" + (3 - pCan) + "C" + (1 - pBot) + "B ______________" + pMis + "M" +
                     pCan + "C" + pBot );
             return true;
         }
-        else if ((pMis == 3) & (pCan == 3) & (pBot== 1)){
+        else if ((pMis == 3) & (pCan == 3) & (pBot== 1)){   //Funcion de fallo
             System.out.println((pMis - 3) + "M" + (pCan - 3) + "C" + (pBot - 1) + "B ______________" + pMis + "M" + pCan
                     + "C" + pBot );
             return moverMisionerosYCanibales(pMis, pCan - 2, pBot - 1);
         }
-        pBot = 1;
-        for (int i = 1; i > 0; i--){
+        pBot = 1;                                         //Condicion root o first
+        for (int i = 1; i > 0; i--){                      //Condicion o funcion next 
             if (pMis == 3){
                 pBot  = pBot - 1;
                 System.out.println((3 - pMis) + "M" + (3 - pCan) + "C" + (1 - pBot) + "B ______________" + pMis + "M" +
